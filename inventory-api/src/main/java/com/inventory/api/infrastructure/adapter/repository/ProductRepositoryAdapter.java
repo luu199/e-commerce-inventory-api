@@ -1,4 +1,4 @@
-package com.inventory.api.infrastucture.adapter.repository;
+package com.inventory.api.infrastructure.adapter.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import com.inventory.api.domain.model.Product;
 import com.inventory.api.domain.repository.ProductRepositoryPort;
-import com.inventory.api.infrastucture.adapter.entity.ProductEntity;
+import com.inventory.api.infrastructure.adapter.entity.ProductEntity;
 
 @Component 
 public class ProductRepositoryAdapter implements ProductRepositoryPort{

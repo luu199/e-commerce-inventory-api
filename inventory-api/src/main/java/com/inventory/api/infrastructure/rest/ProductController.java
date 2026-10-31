@@ -1,4 +1,4 @@
-package com.inventory.api.infrastucture.rest;
+package com.inventory.api.infrastructure.rest;
 
 import java.util.List;
 

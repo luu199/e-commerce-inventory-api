@@ -1,7 +1,8 @@
-package com.inventory.api.infrastucture.adapter.repository;
+package com.inventory.api.infrastructure.adapter.repository;
 
-import com.inventory.api.infrastucture.adapter.entity.ProductEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.inventory.api.infrastructure.adapter.entity.ProductEntity;
 
 public interface SpringDataProductRepository extends JpaRepository<ProductEntity,Long> {
 }

@@ -1,4 +1,4 @@
-package com.inventory.api.infrastucture.adapter.entity;
+package com.inventory.api.infrastructure.adapter.entity;
 
 import java.math.BigDecimal;
 
@@ -21,7 +21,7 @@ public class ProductEntity {
 
     @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
     
     @Column(nullable = false)
     private String name;
